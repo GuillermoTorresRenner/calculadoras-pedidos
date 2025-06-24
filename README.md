@@ -53,6 +53,7 @@ Para escalar esta estrategia a sistemas más grandes:
 ### Imágenes
 
 ![Test Success](./success_test.png)
+![Tworkflow Success](./workflow_success.png)
 
 ---
 
@@ -61,4 +62,5 @@ Para escalar esta estrategia a sistemas más grandes:
 **Lo más significativo fue experimentar en primera persona cómo las pruebas actúan como una red de seguridad.** Cuando modificamos la lógica de `PedidoService` para incluir `DescuentoRepository`, las pruebas fallaron inmediatamente, alertándonos de que los cambios habían roto la funcionalidad existente. Esta experiencia práctica nos demostró el valor real de las pruebas como **detectores de regresión**.
 
 **El uso de mocks nos mosatró las bondades de poder simular servicios** permitiéndonos mantener los tests aislados de dependencias externas
+
 # calculadoras-pedidos
